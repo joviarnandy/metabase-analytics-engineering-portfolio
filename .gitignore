@@ -1,0 +1,19 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Environment variables
+.env
+docker/.env
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+# OS
+.DS_Store
+Thumbs.db
+# IDE
+.vscode/
+.idea/
